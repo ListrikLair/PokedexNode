@@ -1,0 +1,95 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td{
+  border: solid 1px #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th{
+  background-color: #f2f2f2;
+}
+
+.Bug{
+  color: #94BC4A
+}
+
+.Dark{
+  color: #736C75 
+}
+
+.Dragon{
+  color: #6A7BAF 
+}
+
+.Electric{
+  color: #E5C531 
+}
+
+.Fairy{
+  color: #E397D1 
+}
+
+.Fighting{
+  color: #CB5F48  
+}
+
+.Fire{
+  color: #EA7A3C 
+}
+
+.Flying{
+  color: #7DA6DE 
+}
+
+.Ghost{
+  color: #846AB6 
+}
+
+.Grass{
+  color: #71C558 
+}
+
+.Ground{
+  color: #CC9F4F  
+}
+
+.Ice{
+  color: #70CBD4  
+}
+
+.Normal{
+  color: #AAB09F  
+}
+
+.Poison{
+  color: #B468B7  
+}
+
+.Psychic{
+  color: #E5709B  
+}
+
+.Rock{
+  color: #B2A061  
+}
+
+.Steel{
+  color: #89A1B0  
+}
+
+.Water{
+  color: #539AE2 
+}

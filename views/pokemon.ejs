@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h2>All Pokemon with their types</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Dex number</th>
+                <th>Name</th>
+                <th>Type1</th>
+                <th>Type2</th>
+            </tr>
+        </thead>
+        <tbody>
+          <% var number = 1 %>
+            <% pokemon.forEach(function(mon) { %>
+            <tr>
+                <td><%= number %></td>
+                <td><%= mon.name %></td>
+                <td class="<%= mon.type1%>"><%= mon.type1 %></td>
+                <td class="<%= mon.type2%>"><%= mon.type2 %></td>
+            </tr>
+            <% number++ %>
+            <% }) %>
+        </tbody>
+    </table>
+  </body>
+</html>
